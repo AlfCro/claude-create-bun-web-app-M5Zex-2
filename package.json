@@ -1,0 +1,18 @@
+{
+  "name": "focus-app",
+  "version": "1.0.0",
+  "description": "A small client-side todo app built with Bun + React",
+  "scripts": {
+    "dev": "bun run server.ts",
+    "build": "bun build ./src/main.tsx --outdir ./dist --target browser --minify"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "typescript": "^5"
+  }
+}
